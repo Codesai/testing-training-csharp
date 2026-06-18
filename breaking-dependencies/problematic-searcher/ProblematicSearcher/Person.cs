@@ -1,6 +1,6 @@
 ﻿namespace ProblematicSearcher
 {
-    public class Person
+    public record Person
     {
         private readonly string _name;
         private readonly string _surname;
