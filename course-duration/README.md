@@ -29,7 +29,7 @@ When showing course details on the console, the following information is present
 
 [Examples of using spying and stubbing with NSubstitute](https://gist.github.com/franreyes/575c81082ede41208784950d1a445cac)
 
-### To create Instant objects for the tests use the following helper:
+### To create DateTimeOffset objects for the tests use the following helper:
 
 ```csharp
 private DateTimeOffset ATimeInMinutes(double minutes)
