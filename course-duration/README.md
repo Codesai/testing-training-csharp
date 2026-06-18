@@ -27,15 +27,14 @@ When showing course details on the console, the following information is present
 
 ## Help
 
-[Examples of using spying and stubbing with mockito](https://gist.github.com/franreyes/575c81082ede41208784950d1a445cac
-)
+[Examples of using spying and stubbing with NSubstitute](https://gist.github.com/franreyes/575c81082ede41208784950d1a445cac)
 
 ### To create Instant objects for the tests use the following helper:
 
 ```csharp
-private Instant ATimeInMinutes(double minutes)
+private DateTimeOffset ATimeInMinutes(double minutes)
 {
-    return Instant.FromUnixTimeMilliseconds((long)(minutes * 60 * 1000));
+    return DateTimeOffset.FromUnixTimeMilliseconds((long)(minutes * 60 * 1000));
 }
 ```
 
