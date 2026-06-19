@@ -35,7 +35,7 @@ public class Game
         {
             Roll(GetRollResult());
 
-            if (IsAnswerRight())
+            if (IsWrongAnswer())
             {
                 notAWinner = WrongAnswer();
             }
@@ -46,7 +46,7 @@ public class Game
         } while (notAWinner);
     }
 
-    protected virtual bool IsAnswerRight()
+    protected virtual bool IsWrongAnswer()
     {
         return _rand.Next(9) == 7;
     }

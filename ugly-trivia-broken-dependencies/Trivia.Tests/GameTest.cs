@@ -25,7 +25,7 @@ public class GameTest
             _answerIsRightList = new Queue<bool>(answerIsRightList);
         }
 
-        protected override bool IsAnswerRight()
+        protected override bool IsWrongAnswer()
         {
             return _answerIsRightList.Dequeue();
         }
