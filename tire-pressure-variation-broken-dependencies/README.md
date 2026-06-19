@@ -21,6 +21,11 @@ Based on an exercise from [Luca Minudel](https://twitter.com/lukadotnet?lang=en)
 
 `dotnet stryker --open-report`
 
+## Coverage with docker
+
+`docker build -t coverlet . && docker run --rm -v "$PWD/coverage:/app/coverage" coverlet`
+
+
 ## References
 
 Based on an exercise from [Luca Minudel](https://twitter.com/lukadotnet?lang=en)'s [TDD with Mock Objects And Design Principles exercises](https://github.com/lucaminudel/TDDwithMockObjectsAndDesignPrinciples)

@@ -1,0 +1,23 @@
+# Build artifacts
+bin/
+obj/
+
+# Test results and coverage
+TestResults/
+coverage/
+StrykerOutput/
+
+# IDE files
+.idea/
+.vs/
+.vscode/
+*.swp
+*.user
+
+# Git
+.git/
+.gitignore
+
+# Docker
+Dockerfile
+.dockerignore
