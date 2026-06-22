@@ -1,3 +1,5 @@
+using NUnit.Framework;
+
 namespace ProblematicSearcher.Test;
 
 public class PeopleSearcherTest
