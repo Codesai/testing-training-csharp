@@ -14,8 +14,13 @@ Based on an exercise from [Luca Minudel](https://twitter.com/lukadotnet?lang=en)
 `dotnet restore`
 
 ### Coverage
+Run as msbuild target with this command:
 
 `dotnet msbuild -target:Coverlet`
+
+Or execute the .bat script in test project with:
+
+`.\coverage.bat`
 
 ### Mutation testing
 
