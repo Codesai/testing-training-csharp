@@ -19,6 +19,8 @@ Based on an exercise from [Luca Minudel](https://twitter.com/lukadotnet?lang=en)
 
 ### Mutation testing
 
+Run this command from solution folder
+
 `dotnet stryker --open-report`
 
 ## Coverage with docker
