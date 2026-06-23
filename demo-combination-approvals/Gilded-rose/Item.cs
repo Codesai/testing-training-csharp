@@ -9,7 +9,7 @@ public class Item
         Quality = quality;
     }
 
-    public string Name { get; set; }
+    public string Name { get; }
 
     public int SellIn { get; set; }
 
